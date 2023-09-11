@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    min-height: 50px;
+   width: 100%;
+    position: fixed;
+}
+
+.header-logo{
+    color: aliceblue;
+}
+.nav-bar{
+    padding: 20px;
+}
+ul{
+    display: flex;
+    gap: 5px;
+}
+li{
+    list-style: none;;
+    padding: 0 40px;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color: violet;
+}
+.hero{
+    /* display:  flex;
+    justify-content: space-around; */
+    padding: 200px 0;
+    background-color:#30558a;
+}
+.hero-main{
+    display:  flex;
+    /* background-color: red; */
+    justify-content: center;
+    padding: 20px 0;
+    gap: 5px
+}
+.hero-banner > *{
+    color: aliceblue;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.hero-banner p{
+    font-size: 15px;
+}
+#hero-btn{
+    border: 0;
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 5px 20px;
+    background-color: blue;
+}
+#hero-btn:hover{
+    border: 1px solid green;
+    background-color: aliceblue;
+    color: black;
+    transition: 5ms;
+}
+.my-img{
+    width: 400px;
+}
+
+#about-sec h1 {
+    text-align: center;
+    margin: 20px auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 2% 0 10% 0;
+    gap: 40px;
+}
+.parent-box{
+    display: inline-block;
+    text-align: center;
+}
+
+.child-box{
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+    border: 5px solid red;
+}
+
+.parent-box p{
+    width: 200px;
+    font-size: 0.9rem;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+#testimonial-sec{
+    padding: 5% 0;
+       background-color: #30558a;
+}
+
+.test{
+    background-color: aliceblue;
+    padding: 50px 80px;
+    margin: 0 auto;
+    width: 700px;
+    border-radius: 10px;
+    line-height: 50px;
+}
+.test p{
+    font-size: 15px;
+    font-weight:lighter;
+}
+.test h3{
+    text-align: end;
+    
+}
+.test h3::before{
+    content: "-";
+}
+
+#contact-sec{
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-border{
+    background-color: #30558a;
+    width: 700px;
+    border-radius: 10px;
+    line-height: 30px;
+    padding: 80px 80px;
+    display: flex;
+}
+.contact-info{
+    color: aliceblue;
+    margin: 0 5px;
+    line-height: 40px;
+}
+
+.contact-info h4{
+   font-size: 25px;
+}
+
+.contact-info p{
+    font-size: 15px;
+}
+.btn{
+    padding: 30px 0px 0px 15px;
+}
+
+#contact-btn{
+    border: 0;
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 5px 20px;
+    background-color: aliceblue;
+    color: blue;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 30px 0;
+    text-align: center;
+}
